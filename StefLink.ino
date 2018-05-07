@@ -176,7 +176,7 @@ void loop() {
             display.setCursor(0,0);
 
             // secret addon
-            if (username == "Pati") display.drawBitmap(112, 1, heart_glcd_bmp, HEART_GLCD_WIDTH, HEART_GLCD_HEIGHT, WHITE);
+            if (username == "xxx") display.drawBitmap(112, 1, heart_glcd_bmp, HEART_GLCD_WIDTH, HEART_GLCD_HEIGHT, WHITE);
 
             if (contentCorrect) {
               // handling words distribution
