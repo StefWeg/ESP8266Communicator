@@ -40,7 +40,7 @@ bool outMsgReady = false;
 Adafruit_SSD1306 display (OLED_MOSI, OLED_CLK, OLED_DC, OLED_RESET, OLED_CS);
 
 // WiFi server constructor
-WiFiServer server(301); // custom port number
+WiFiServer server(999); // custom port number
 
 
 void setup() {
